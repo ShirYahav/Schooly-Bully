@@ -1,0 +1,6 @@
+.NewBookLink {
+    text-decoration: underline;
+    display: flex;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}

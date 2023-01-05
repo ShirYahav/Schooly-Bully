@@ -1,0 +1,29 @@
+.QuestionCard {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.QuestionCardText {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+    margin-right: 5px;
+    float: right
+}
+
+.QuestionCardSubheading {
+    font-weight: bold;
+}
+
+/* .QuestionCardBox {
+    
+} */

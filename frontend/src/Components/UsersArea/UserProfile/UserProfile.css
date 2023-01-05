@@ -1,0 +1,33 @@
+.UserImageProfile {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 3px;
+}
+
+.ProfileRate {
+    margin-top: -32px;
+}
+
+.QuestionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AnswersContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileSubheading {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}

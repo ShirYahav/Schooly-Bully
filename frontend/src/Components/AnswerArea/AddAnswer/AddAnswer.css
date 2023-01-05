@@ -1,0 +1,24 @@
+/* .AddAnswer {
+	
+} */
+
+.ImageInput::-webkit-file-upload-button {
+    display: none;
+}
+
+.ImageLabel {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: rgb(113, 113, 113);
+}
+
+.ImageDiv {
+    text-align:center;
+    padding:13px;
+    border:thin solid rgb(195, 195, 195);
+    height: 30px;
+    border-radius: 4px;
+    width: 353px;
+
+}

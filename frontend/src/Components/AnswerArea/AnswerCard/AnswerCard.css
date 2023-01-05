@@ -1,0 +1,79 @@
+.AnswerCard {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.UserName {
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.TextAnswer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+    margin-right: 5px;
+    float: right
+}
+
+.StarRating {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+img {
+    width:200px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.ImageContainer > img:hover {
+    width: 700px;
+    height: 500px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.On {
+    color: #000;
+}
+.Off {
+    color: #ccc;
+}
+
+.AnswerRate {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.DeleteButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.DeleteIcon {
+    height: 20px;
+    width: 16px;
+}

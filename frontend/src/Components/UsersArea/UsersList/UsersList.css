@@ -1,0 +1,17 @@
+.UsersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.TopRatedUsers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3{
+    color: var(--darkBlue);
+    margin-bottom: 0;
+}
